@@ -14,7 +14,8 @@
         <img v-bind:src="picture" v-bind:alt="`${firstname} ${lastname}`" v-bind:class="gender">
         <h1>{{firstname}} {{lastname}}</h1>
         <h2>{{email}}</h2>
-        <button v-bind:class="gender" v-on:click="getUser()">Get another person</button>
+        <button v-bind:class="gender" v-on:click="getUser()">Get a random person</button>
+
     </div>
 
     <script src="https://unpkg.com/vue@3.0.5"></script>
